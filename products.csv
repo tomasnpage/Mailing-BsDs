@@ -1,0 +1,23 @@
+name,price,description,image_text,category,featured,deal_day
+Gaseosa Coca-Cola,1200,Gaseosa Coca-Cola Original 1.5 Litros. Refrescante y deliciosa.,Coca-Cola,Bebidas,false,jueves
+Leche Entera La Serenísima,850,Leche Entera La Serenísima 1 Litro. Imprescindible en tu heladera.,Leche+Entera,Frescos,false,jueves
+Gaseosa Coca-Cola,1200,Gaseosa Coca-Cola Original 1.5 Litros. Refrescante y deliciosa.,Coca-Cola,Bebidas,false,jueves
+Leche Entera La Serenísima,850,Leche Entera La Serenísima 1 Litro. Imprescindible en tu heladera.,Leche+Entera,Frescos,false,viernes
+Pan Lactal Bimbo,990,Pan Lactal Bimbo Blanco. Ideal para tus desayunos y meriendas.,Pan+Lactal,Almacen,false,viernes
+Arroz Gallo Oro,720,Arroz Gallo Oro 500g. Base perfecta para una gran variedad de platos.,Arroz+Gallo,Almacen,false,viernes
+Fideos Lucchetti,680,Fideos Lucchetti Spaghetti 500g. Rápidos y fáciles de cocinar.,Fideos+Lucchetti,Almacen,false,sabado
+Aceite de Girasol Cocinero,1500,Aceite de Girasol Cocinero 900ml. Calidad para todas tus preparaciones.,Aceite+Girasol,Almacen,false,sabado
+Atún La Campagnola,1100,Atún en Lata La Campagnola. Ideal para ensaladas o sándwiches.,Atun+La+Campagnola,Almacen,false,sabado
+Yogurt Sancor Cremix,550,Yogurt Sancor Cremix Frutilla. Postre o colación,siempre rico.,Frescos,Frescos,todos
+Detergente Magistral,980,Detergente Magistral 750ml. Brillo y limpieza impecable.,Detergente+Magistral,Limpieza,false,todos
+Papel Higiénico Scott,1800,Papel Higiénico Scott Rindemax 4 rollos. Suavidad para toda la familia.,Papel+Higienico,Limpieza,false,todos
+Jabón en Polvo Skip,2500,Jabón en Polvo Skip 800g. Ropa limpia y con un aroma fresco.,Jabon+en+Polvo,Limpieza,false,todos
+Café La Virginia,1300,Café La Virginia 170g. El aroma perfecto para empezar el día.,Cafe+La+Virginia,Almacen,true,todos
+Yerba Mate Playadito,1450,Yerba Mate Playadito 500g. El sabor auténtico de tus mates.,Yerba+Mate,Almacen,false,todos
+Cerveza Quilmes,950,Cerveza Quilmes Clásica Lata. Ideal para compartir con amigos.,Cerveza+Quilmes,Bebidas,true,todos
+Detergente Magistral,980,Detergente Magistral 750ml. Brillo y limpieza impecable.,Detergente+Magistral,Limpieza,false,todos
+Papel Higiénico Scott,1800,Papel Higiénico Scott Rindemax 4 rollos. Suavidad para toda la familia.,Papel+Higienico,Limpieza,false,todos
+Jabón en Polvo Skip,2500,Jabón en Polvo Skip 800g. Ropa limpia y con un aroma fresco.,Jabon+en+Polvo,Frescos,false,todos
+Café La Virginia,1300,Café La Virginia 170g. El aroma perfecto para empezar el día.,Cafe+La+Virginia,Almacen,true,todos
+Yerba Mate Playadito,1450,Yerba Mate Playadito 500g. El sabor auténtico de tus mates.,Yerba+Mate,Almacen,false,todos
+Cerveza Quilmes,950,Cerveza Quilmes Clásica Lata. Ideal para compartir con amigos.,Cerveza+Quilmes,Bebidas,true,todos

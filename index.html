@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas del Supermercado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo-link">
+            <img src="img/logo.svg" alt="Super Ofertas Logo" class="logo-img">
+        </a>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Promociones bancarias</a></li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="Instagram" style="margin-left: 15px;"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu" onclick="openNav()">☰</div>
+    </header>
+
+    <!-- ======================= SLIDER DE IMÁGENES ======================= -->
+ <div class="slider-container">
+    <div class="slider-track">
+        <!-- Coloca tus 4 imágenes de slider aquí -->
+ <!--       <div class="slide"><img src="slider/slide1.jpg" alt="Banner promocional 1"></div>
+        <div class="slide"><img src="slider/slide2.jpg" alt="Banner promocional 2"></div>
+        <div class="slide"><img src="slider/slide3.jpg" alt="Banner promocional 3"></div>
+        <div class="slide"><img src="slider/slide4.jpg" alt="Banner promocional 4"></div>
+    </div>-->
+    <div class="slider-dots">
+        <!-- Los puntos de navegación se generarán aquí con JavaScript -->
+    </div>
+</div>
+<!-- =================== FIN DEL SLIDER DE IMÁGENES =================== -->
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Sucursales</a>
+        <a href="#">Promociones bancarias</a>
+        <!-- === CÓDIGO CORREGIDO PARA MÓVIL === -->
+        <div class="sidebar-socials">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <main class="offers-section">
+        <h2>🔥 ¡Ofertas de la Semana!</h2>
+
+        <div id="daily-deals-container" class="daily-deals">
+            <!-- Las ofertas diarias se cargarán aquí -->
+        </div>
+        <p class="promo-validity-text">Ofertas válidas desde el 26/06/25 al 02/07/25</p>
+
+        <div id="category-filters" class="category-filters">
+            <button class="filter-btn active" data-category="all">Todos</button>
+            <button class="filter-btn" data-category="featured">Destacados</button>
+            <button class="filter-btn" data-category="Almacen">Almacén</button>
+            <button class="filter-btn" data-category="Bebidas">Bebidas</button>
+            <button class="filter-btn" data-category="Frescos">Frescos</button>
+            <button class="filter-btn" data-category="Limpieza">Limpieza</button>
+        </div>
+
+        <div id="product-grid-container" class="product-grid">
+            <!-- Los productos se cargarán aquí... -->
+        </div>
+        
+        <div id="category-banner-container">
+            <!-- El banner JPG se cargará aquí -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Super Ofertas. Todos los derechos reservados.</p>
+        <p class="footer-credit">desarrollado por Cráneo</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
